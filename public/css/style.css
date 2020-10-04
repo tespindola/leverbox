@@ -1,0 +1,76 @@
+.subtitulo{
+    color: #ff8300;
+    font-weight: 100;
+}
+
+.lineaD{
+    border: 0 none #ff8300;
+    border-top: 1px solid #ff8300;
+    height: 1px;
+    margin: 5px 0;
+    display: block;
+    clear: both;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1;
+    margin: 0;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+.border-right-left{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.icon-plus{
+    background-color: #cacaca;
+    color: #fff;
+}
+
+.focus:focus{
+    outline-color: #ff8300 !important;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.img-pais{
+    width: 100%;
+}
+
+.btn-pais >.v-btn__content{
+    flex: initial;
+}
+
+.btn-pais:focus{
+    outline-color: #fff;
+}
+
+.icon-arg{
+    background-image: url('/public/css/icons/paises/arg.png');
+}
+
+.fondo-naranja:hover{
+    background-color: #ff8300;
+}
+
+.pref{
+    width: 22%;
+}
+.input-bandera{
+    display: contents;
+}
+
+.color-naranja{
+    background-color: #ff8300 !important;
+}
+
+a {
+    text-decoration: none !important;
+}
